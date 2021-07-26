@@ -37,7 +37,6 @@ public class Task2 {
                 System.out.printf("Частное = %.4f", result );
                 break;
             default:
-
                 System.err.println("Ошибка. Выберите один из 4 заданных вариантов операций.");
         }
     }
