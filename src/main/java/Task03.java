@@ -10,7 +10,7 @@ public class Task03 {
             calculate(); // вызываем калькулятор
         }
         else if (choise ==2){
-            maxM();      //поиск максимального слова в массиве
+            maxM(); // поиск максимального слова в массиве
         }
         else {
             System.err.println("Ошибка");
