@@ -18,6 +18,6 @@ public class BestCandy extends Candies {
 
     @Override
     public String toString() {
-        return "Jellybean [" + super.toString() + ", brand: " + brand + "]";
+        return "BestCandy [" + super.toString() + ", brand: " + brand + "]";
     }
 }

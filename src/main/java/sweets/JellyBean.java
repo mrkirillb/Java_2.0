@@ -18,6 +18,6 @@ public class JellyBean extends Candies {
 
     @Override
     public String toString() {
-        return "Lollipop [" + super.toString() + ", color: " + color + "]";
+        return "JellyBean [" + super.toString() + ", color: " + color + "]";
     }
 }

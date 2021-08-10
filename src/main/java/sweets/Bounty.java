@@ -18,6 +18,6 @@ public class Bounty extends Candies {
 
     @Override
     public String toString() {
-        return "Toffee [" + super.toString() + ", origin: " + origin + "]";
+        return "Bounty [" + super.toString() + ", origin: " + origin + "]";
     }
 }
