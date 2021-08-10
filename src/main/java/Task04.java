@@ -16,7 +16,7 @@ public class Task04 {
         int MinPosMass = 1;
         int MaxNegMass = -11;
 
-        //Ищем максимальный отрицательное и минимальный положительный элемент
+        /* Ищем максимальный отрицательный и минимальный положительный элемент */
         for (int i = 0; i < mas.length; i++) {
             mas[i] = (int) (Math.random() * ((max - min) + 1)) + min;
             if (mas[i] < 0 && mas[i] > MaxNegMass) {
@@ -30,7 +30,7 @@ public class Task04 {
         System.out.println("Максимальный отрицательный элемент = " + MaxNegMass);
         System.out.println("Минимальный положительный элемент = " + MinPosMass);
 
-        //Меняем максимальный отрицательный и минимальный положительный элемент массива местами
+        /* Меняем максимальный отрицательный и минимальный положительный элемент массива местами */
         for (int i = 0; i < mas.length; i++) {
             if (mas[i] == MaxNegMass) {
                 mas[i] = MinPosMass;
