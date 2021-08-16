@@ -7,7 +7,7 @@ package oopCalc;
 import java.util.Scanner;
 
 public class Reader {
-    public double readNums() {
+    public double Nums() {
 
         Scanner scanner;
         scanner = new Scanner(System.in);

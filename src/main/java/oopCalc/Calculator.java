@@ -5,9 +5,9 @@ public class Calculator {
 
         Reader reader = new Reader();
         System.out.println("Введите первое число для расчета: ");
-        double numberOne = reader.readNums();
+        double numberOne = reader.Nums();
         System.out.println("Введите второе число для расчета: ");
-        double numberTwo = reader.readNums();
+        double numberTwo = reader.Nums();
 
         HeadClass headclass = new HeadClass(numberOne, numberTwo);
 
@@ -18,7 +18,7 @@ public class Calculator {
                 "4 - Деление");
 
         int operation;
-        operation = (int) reader.readNums();
+        operation = (int) reader.Nums();
 
         switch (operation) {
             case (1):
