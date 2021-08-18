@@ -27,6 +27,10 @@ public class HeadClass {
     }
 
     public double division() {
-        return x / y;
+        if (y == 0) {
+            throw new ArithmeticException();
+        } else {
+            return x / y;
+        }
     }
 }
