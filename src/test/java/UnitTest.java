@@ -5,7 +5,7 @@ import org.junit.Test;
 public class UnitTest {
 
     @Test
-    public void CheckAddDouble() {
+    public void CheckSumDouble() {
         HeadClass sum;
         sum = new HeadClass(34.7, -2.7);
         Assert.assertEquals("Сложение считается неверно", 32, sum.summation(), 0);
