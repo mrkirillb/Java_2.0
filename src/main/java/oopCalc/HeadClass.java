@@ -6,13 +6,29 @@ package oopCalc;
 
 public class HeadClass {
 
-    private double x;
-    private double y;
-
     public HeadClass(double x, double y) {
-        this.x = x;
-        this.y = y;
+        HeadClass.x = x;
+        HeadClass.y = y;
     }
+
+    public static double getX() {
+        return x;
+    }
+
+    public static void setX(double x) {
+        HeadClass.x = x;
+    }
+
+    public static double getY() {
+        return y;
+    }
+
+    public static void setY(double y) {
+        HeadClass.y = y;
+    }
+
+    private static double x;
+    private static double y;
 
     public double summation() {
         return x + y;
@@ -26,7 +42,7 @@ public class HeadClass {
         return x * y;
     }
 
-    public double division() {
+    public static double division() {
         if (y == 0) {
             throw new ArithmeticException();
         } else {
